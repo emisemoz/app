@@ -3,7 +3,7 @@ import React from 'react'
 import {InputComponent} from './Component/InputComponent'
 
 const FourthScreen = () => {
-  return (
+return (
     <View style={{margin:16}}>
         <ScrollView>
         <ImageBackground
@@ -21,7 +21,7 @@ const FourthScreen = () => {
         margin: 8,
         fontSize: 18,
         fontWeight: 'bold' ,
-      }}> Disneyland</Text>
+    }}> Disneyland</Text>
         </ImageBackground>
         <InputComponent 
         title="Description"

@@ -1,12 +1,13 @@
 import React from "react";
 import 'react-native-gesture-handler'
 import { SafeAreaProvider } from "react-native-safe-area-context";
-import MainNavigator from './M11/navigator/MainNavigator';
+import FourthScreen from "./M4/FourthScreen";
+import DrawerNav from "./Drawer Navigation/M3/navigator/MainNavigator";
 //tewst
 const App = () => {
   return (
     <SafeAreaProvider>
-      <MainNavigator/>
+      <DrawerNav/>
     </SafeAreaProvider>
   );
 };
